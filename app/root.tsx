@@ -48,6 +48,8 @@ export const links: LinksFunction = () => {
 };
 
 export async function loader({request, context}: LoaderArgs) {
+  console.log('context', context);
+
   const cartId = getCartId(request);
   const [customerAccessToken, layout] = await Promise.all([
     context.session.get('customerAccessToken'),

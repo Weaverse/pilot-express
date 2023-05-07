@@ -1,5 +1,5 @@
 {
-  "include": ["./**/*.d.ts", "./**/*.ts", "./**/*.tsx"],
+  "include": ["./**/*.d.ts", "./**/*.ts", "./**/*.tsx", "server.js"],
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2022"],
     "isolatedModules": true,
