@@ -8,9 +8,6 @@
 ```json
   {
     "scripts": {
-      "dev": "npm-run-all build --parallel \"dev:*\"",
-      "dev:node": "cross-env NODE_ENV=development nodemon --require dotenv/config ./server.js --watch ./server.js",
-      "dev:remix": "remix watch",
       "build": "remix build",
       "start": "cross-env NODE_ENV=production node --require dotenv/config ./server.js",
       "preview": "npm run build && npm run start",
@@ -19,14 +16,7 @@
       "@remix-run/express": "^1.16.0",
       "@remix-run/node": "^1.16.0",
       "@weaverse/hydrogen": "1.0.36",
-      "compression": "^1.7.4",
       "express": "^4.18.2",
-      "morgan": "^1.10.0",
-    },
-    "devDependencies": {
-      "cross-env": "^7.0.3",
-      "nodemon": "^2.0.22",
-      "npm-run-all": "^4.1.5",
     }
   }
 ```
