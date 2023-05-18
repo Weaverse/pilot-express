@@ -25,7 +25,7 @@
     "@shopify/cli-hydrogen": "^4.1.2",
     "@shopify/hydrogen": "^2023.4.1",
     "@shopify/remix-oxygen": "^1.0.6",
-    "@weaverse/hydrogen": "1.0.42",
+    "@weaverse/hydrogen": "1.0.44",
     "clsx": "^1.2.1",
     "compression": "^1.7.4",
     "cross-env": "^7.0.3",
